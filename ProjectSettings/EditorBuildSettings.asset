@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: a8c5a960880f94f4d8faedc7b20cbd6d
+  - enabled: 1
+    path: Assets/Damon/Damon's slide.unity
+    guid: 32ff972a150db9e46a49577f53ea7287
   m_configObjects: {}
