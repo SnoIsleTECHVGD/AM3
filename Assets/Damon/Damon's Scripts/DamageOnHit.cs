@@ -11,7 +11,7 @@ public class DamageOnHit : MonoBehaviour
 
         if (hitStats != null)
         {
-            hitStats.health -= ourStats.health;
+            hitStats.health -= ourStats.damage;
 
             if (hitStats.health <= 0)
             {
