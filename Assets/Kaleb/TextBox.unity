@@ -301,7 +301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: m_fontSize
-      value: 125
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: m_margin.w
@@ -321,7 +321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: m_fontSizeBase
-      value: 125
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: m_Pivot.x
@@ -426,6 +426,22 @@ PrefabInstance:
     - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: lines.Array.data[2]
       value: yay :)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598697, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Color.a
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598697, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598697, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598697, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6792453
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
