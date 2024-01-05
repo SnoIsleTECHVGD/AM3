@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //left inputs
         if (Input.GetKey(Left))
         {
@@ -33,6 +34,7 @@ public class Movement : MonoBehaviour
             }
             rb2d.AddForce(Vector2.left * buildUp);
         }
+
         //right inputs
         if (Input.GetKey(Right))
         {
@@ -48,11 +50,13 @@ public class Movement : MonoBehaviour
             }
             rb2d.AddForce(Vector2.right * buildUp);
         }
+
         //up input
         if (Input.GetKey(Up))
         {
             rb2d.AddForce(Vector2.up * buildUp);
         }
+
         //down input
         if (Input.GetKey(Down))
         {
