@@ -1221,7 +1221,7 @@ Transform:
   - {fileID: 1383327105}
   - {fileID: 1102191576}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &217085948
 GameObject:
@@ -1366,6 +1366,8 @@ GameObject:
   - component: {fileID: 228834460}
   - component: {fileID: 228834463}
   - component: {fileID: 228834462}
+  - component: {fileID: 228834464}
+  - component: {fileID: 228834465}
   m_Layer: 0
   m_Name: Isometric Diamond (19)
   m_TagString: Untagged
@@ -1472,8 +1474,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &228834464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228834459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &228834465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228834459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &239493694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,6 +1779,8 @@ GameObject:
   - component: {fileID: 267692202}
   - component: {fileID: 267692206}
   - component: {fileID: 267692205}
+  - component: {fileID: 267692207}
+  - component: {fileID: 267692208}
   - component: {fileID: 267692204}
   m_Layer: 0
   m_Name: Isometric Diamond (14)
@@ -1884,8 +1914,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &267692207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267692201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &267692208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267692201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &312943102
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,6 +2216,8 @@ GameObject:
   - component: {fileID: 339891217}
   - component: {fileID: 339891220}
   - component: {fileID: 339891219}
+  - component: {fileID: 339891221}
+  - component: {fileID: 339891222}
   - component: {fileID: 339891218}
   m_Layer: 0
   m_Name: Isometric Diamond (7)
@@ -2293,8 +2351,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &339891221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339891215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &339891222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339891215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &348533120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,6 +2523,8 @@ GameObject:
   - component: {fileID: 351586867}
   - component: {fileID: 351586864}
   - component: {fileID: 351586863}
+  - component: {fileID: 351586868}
+  - component: {fileID: 351586869}
   m_Layer: 0
   m_Name: Enemy (2)
   m_TagString: Untagged
@@ -2532,7 +2618,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 93179c123fd27c94d9bfb6649e933a76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2571,8 +2657,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &351586868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351586862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 0
+--- !u!114 &351586869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351586862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &421431957
 GameObject:
   m_ObjectHideFlags: 0
@@ -2585,6 +2697,8 @@ GameObject:
   - component: {fileID: 421431958}
   - component: {fileID: 421431961}
   - component: {fileID: 421431960}
+  - component: {fileID: 421431962}
+  - component: {fileID: 421431963}
   m_Layer: 0
   m_Name: Isometric Diamond (17)
   m_TagString: Untagged
@@ -2691,8 +2805,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &421431962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421431957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &421431963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421431957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &422246777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,6 +2845,7 @@ GameObject:
   - component: {fileID: 422246781}
   - component: {fileID: 422246780}
   - component: {fileID: 422246779}
+  - component: {fileID: 422246782}
   m_Layer: 0
   m_Name: Exit
   m_TagString: Untagged
@@ -2816,6 +2957,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &422246782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422246777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c31839c510acf43ba07f5e15b9dd52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeIsRunning: 1
+  time: 0
+  timer: {fileID: 913814014}
 --- !u!1 &452879560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,6 +3508,8 @@ GameObject:
   - component: {fileID: 517289926}
   - component: {fileID: 517289929}
   - component: {fileID: 517289928}
+  - component: {fileID: 517289930}
+  - component: {fileID: 517289931}
   - component: {fileID: 517289927}
   m_Layer: 0
   m_Name: Isometric Diamond (4)
@@ -3485,8 +3643,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &517289930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517289924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &517289931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517289924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &544945926
 GameObject:
   m_ObjectHideFlags: 0
@@ -3630,6 +3814,8 @@ GameObject:
   - component: {fileID: 564227446}
   - component: {fileID: 564227449}
   - component: {fileID: 564227448}
+  - component: {fileID: 564227450}
+  - component: {fileID: 564227451}
   - component: {fileID: 564227447}
   m_Layer: 0
   m_Name: Isometric Diamond (8)
@@ -3763,8 +3949,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &564227450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564227444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &564227451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564227444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &567505806
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,6 +4112,8 @@ GameObject:
   - component: {fileID: 574302768}
   - component: {fileID: 574302772}
   - component: {fileID: 574302771}
+  - component: {fileID: 574302773}
+  - component: {fileID: 574302774}
   - component: {fileID: 574302770}
   m_Layer: 0
   m_Name: Isometric Diamond (15)
@@ -4033,8 +4247,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &574302773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574302767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &574302774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574302767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &645658913
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,6 +4287,8 @@ GameObject:
   - component: {fileID: 645658914}
   - component: {fileID: 645658917}
   - component: {fileID: 645658916}
+  - component: {fileID: 645658918}
+  - component: {fileID: 645658919}
   m_Layer: 0
   m_Name: Isometric Diamond (18)
   m_TagString: Untagged
@@ -4153,8 +4395,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &645658918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645658913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &645658919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645658913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &690099420
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,6 +5090,8 @@ GameObject:
   - component: {fileID: 794992081}
   - component: {fileID: 794992084}
   - component: {fileID: 794992083}
+  - component: {fileID: 794992085}
+  - component: {fileID: 794992086}
   - component: {fileID: 794992082}
   m_Layer: 0
   m_Name: Isometric Diamond (6)
@@ -4955,8 +5225,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &794992085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794992079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &794992086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794992079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &856699815
 GameObject:
   m_ObjectHideFlags: 0
@@ -5354,6 +5650,8 @@ GameObject:
   - component: {fileID: 875012780}
   - component: {fileID: 875012783}
   - component: {fileID: 875012782}
+  - component: {fileID: 875012784}
+  - component: {fileID: 875012785}
   - component: {fileID: 875012781}
   m_Layer: 0
   m_Name: Isometric Diamond (5)
@@ -5487,8 +5785,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &875012784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875012778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &875012785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875012778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &913814012
 GameObject:
   m_ObjectHideFlags: 0
@@ -5523,7 +5847,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 434, y: 283}
+  m_AnchoredPosition: {x: 443.8, y: 289.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &913814014
@@ -5766,6 +6090,8 @@ GameObject:
   - component: {fileID: 921379827}
   - component: {fileID: 921379830}
   - component: {fileID: 921379829}
+  - component: {fileID: 921379831}
+  - component: {fileID: 921379832}
   - component: {fileID: 921379828}
   m_Layer: 0
   m_Name: Isometric Diamond (11)
@@ -5899,8 +6225,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &921379831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921379825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &921379832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921379825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &938785672
 GameObject:
   m_ObjectHideFlags: 0
@@ -6197,7 +6549,7 @@ RectTransform:
   - {fileID: 1100844844}
   - {fileID: 913814013}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6277,6 +6629,8 @@ GameObject:
   - component: {fileID: 1045595546}
   - component: {fileID: 1045595549}
   - component: {fileID: 1045595548}
+  - component: {fileID: 1045595550}
+  - component: {fileID: 1045595551}
   - component: {fileID: 1045595547}
   m_Layer: 0
   m_Name: Isometric Diamond (3)
@@ -6410,8 +6764,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &1045595550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045595544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &1045595551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045595544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1081019658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6463,9 +6843,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9073334820562948194, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
+      propertyPath: buildUp
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9073334820562948194, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
+      propertyPath: maxSpeed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 9073334820562948195, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9073334820562948198, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
+      propertyPath: m_Mass
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 9073334820562948203, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
       propertyPath: Text
@@ -6619,6 +7011,8 @@ GameObject:
   - component: {fileID: 1102191575}
   - component: {fileID: 1102191578}
   - component: {fileID: 1102191577}
+  - component: {fileID: 1102191579}
+  - component: {fileID: 1102191580}
   m_Layer: 0
   m_Name: Isometric Diamond (21)
   m_TagString: Untagged
@@ -6725,8 +7119,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &1102191579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102191574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &1102191580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102191574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1109439582
 GameObject:
   m_ObjectHideFlags: 0
@@ -32547,6 +32967,8 @@ GameObject:
   - component: {fileID: 1146446869}
   - component: {fileID: 1146446872}
   - component: {fileID: 1146446871}
+  - component: {fileID: 1146446873}
+  - component: {fileID: 1146446874}
   - component: {fileID: 1146446870}
   m_Layer: 0
   m_Name: Isometric Diamond (10)
@@ -32680,8 +33102,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &1146446873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146446867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &1146446874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146446867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1157092836
 GameObject:
   m_ObjectHideFlags: 0
@@ -32949,12 +33397,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9073334820562948195, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
   m_PrefabInstance: {fileID: 1081019658}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1208016572 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9073334820562948192, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
-  m_PrefabInstance: {fileID: 1081019658}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1208016573
+--- !u!114 &1208016565
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32963,12 +33406,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1208016564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55c31839c510acf43ba07f5e15b9dd52, type: 3}
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeIsRunning: 1
-  time: 0
-  timer: {fileID: 913814014}
+--- !u!4 &1208016572 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9073334820562948192, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
+  m_PrefabInstance: {fileID: 1081019658}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1211416790
 GameObject:
   m_ObjectHideFlags: 0
@@ -33100,6 +33545,103 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1220752265
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766370, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098731260469766383, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
+      propertyPath: m_Name
+      value: PauseCanvas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22852c57cbe04204da712edcdbd2231f, type: 3}
 --- !u!1 &1233043154
 GameObject:
   m_ObjectHideFlags: 0
@@ -33936,6 +34478,8 @@ GameObject:
   - component: {fileID: 1383327104}
   - component: {fileID: 1383327107}
   - component: {fileID: 1383327106}
+  - component: {fileID: 1383327108}
+  - component: {fileID: 1383327109}
   m_Layer: 0
   m_Name: Isometric Diamond (20)
   m_TagString: Untagged
@@ -34042,8 +34586,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &1383327108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383327103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &1383327109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383327103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1389238342
 GameObject:
   m_ObjectHideFlags: 0
@@ -37625,6 +38195,8 @@ GameObject:
   - component: {fileID: 1483970455}
   - component: {fileID: 1483970458}
   - component: {fileID: 1483970457}
+  - component: {fileID: 1483970459}
+  - component: {fileID: 1483970460}
   - component: {fileID: 1483970456}
   m_Layer: 0
   m_Name: Isometric Diamond (9)
@@ -37758,8 +38330,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &1483970459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483970453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &1483970460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483970453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1501904477
 GameObject:
   m_ObjectHideFlags: 0
@@ -38711,6 +39309,8 @@ GameObject:
   - component: {fileID: 1681303601}
   - component: {fileID: 1681303597}
   - component: {fileID: 1681303596}
+  - component: {fileID: 1681303600}
+  - component: {fileID: 1681303602}
   m_Layer: 0
   m_Name: Enemy (1)
   m_TagString: Untagged
@@ -38804,7 +39404,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 93179c123fd27c94d9bfb6649e933a76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -38830,6 +39430,20 @@ Transform:
   m_Father: {fileID: 163376782}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1681303600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681303595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 0
 --- !u!114 &1681303601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38843,8 +39457,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &1681303602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681303595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1735617567
 GameObject:
   m_ObjectHideFlags: 0
@@ -39897,6 +40523,8 @@ GameObject:
   - component: {fileID: 1854338428}
   - component: {fileID: 1854338431}
   - component: {fileID: 1854338430}
+  - component: {fileID: 1854338432}
+  - component: {fileID: 1854338433}
   - component: {fileID: 1854338429}
   m_Layer: 0
   m_Name: Isometric Diamond (12)
@@ -40030,8 +40658,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &1854338432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854338426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &1854338433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854338426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1867485082
 GameObject:
   m_ObjectHideFlags: 0
@@ -40437,6 +41091,8 @@ GameObject:
   - component: {fileID: 1921688912}
   - component: {fileID: 1921688915}
   - component: {fileID: 1921688914}
+  - component: {fileID: 1921688916}
+  - component: {fileID: 1921688917}
   - component: {fileID: 1921688913}
   m_Layer: 0
   m_Name: Isometric Diamond (13)
@@ -40570,8 +41226,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &1921688916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921688910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &1921688917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921688910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1931485191
 GameObject:
   m_ObjectHideFlags: 0
@@ -41346,7 +42028,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2085415204
 GameObject:
@@ -67192,6 +67874,8 @@ GameObject:
   - component: {fileID: 2125261942}
   - component: {fileID: 2125261945}
   - component: {fileID: 2125261944}
+  - component: {fileID: 2125261946}
+  - component: {fileID: 2125261947}
   m_Layer: 0
   m_Name: Isometric Diamond (16)
   m_TagString: Untagged
@@ -67298,8 +67982,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &2125261946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125261941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+--- !u!114 &2125261947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125261941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2133085234
 GameObject:
   m_ObjectHideFlags: 0
@@ -67313,6 +68023,8 @@ GameObject:
   - component: {fileID: 2133085239}
   - component: {fileID: 2133085236}
   - component: {fileID: 2133085235}
+  - component: {fileID: 2133085240}
+  - component: {fileID: 2133085241}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -67406,7 +68118,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 93179c123fd27c94d9bfb6649e933a76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -67445,5 +68157,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1208016572}
-  followDistance: 20
-  speed: 8
+  followDistance: 15
+  speed: 6
+--- !u!114 &2133085240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133085234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874b4c197a7f62d43975ffb249a75057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  damage: 0
+--- !u!114 &2133085241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133085234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
