@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Hannah/Hannah's slide.unity
     guid: 1923a540baea90142970361b6531d088
   - enabled: 1
+    path: Assets/Kaleb/Kaleb's slide.unity
+    guid: 93c56c5276727ef44aa9065f9ea37707
+  - enabled: 1
     path: Assets/Alex/Alex's Slide.unity
     guid: 3b268b72d6571894a87c24105c2a274e
   - enabled: 1
