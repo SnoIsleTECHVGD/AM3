@@ -413,19 +413,53 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: lines.Array.size
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: lines.Array.data[0]
-      value: Does this work?
+      value: POWERING ON
       objectReference: {fileID: 0}
     - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: lines.Array.data[1]
-      value: How about this?
+      value: ........................................................................................................................................................................................................................................
       objectReference: {fileID: 0}
     - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: lines.Array.data[2]
-      value: yay :)
+      value: 'Greetings STEEV. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[3]
+      value: It appears you have been asleep for many years. I estimate radiation
+        damage to your mainframe is to blame.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[4]
+      value: Humanity has wiped itself out with nuclear weapons, but my sensors detect
+        many forms of life have survived and mutated inside of this building
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[5]
+      value: 'I believe it would be in your best interest to exit this facility as
+        the life inside of it will likely be hostile. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[6]
+      value: 'There are a number of teleportation stations throughout this facility.
+        Going through enough of them will help you escape. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[7]
+      value: Use the inputs W A S and D to move yourself. A left click input will
+        fire an attack. The escape input will freeze everything, including you, in
+        place.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[8]
+      value: The first teleporter is to the right of you. Good luck STEEV
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[9]
+      value: hey you, you're finally awake
       objectReference: {fileID: 0}
     - target: {fileID: 8174914684787598697, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: m_Color.a
