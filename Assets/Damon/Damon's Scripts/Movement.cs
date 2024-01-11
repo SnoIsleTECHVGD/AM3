@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
     public KeyCode Left, Right, Up, Down;
     public float buildUp;
     public float maxSpeed;
+    static int State;
 
     private Rigidbody2D rb2d;
 
@@ -22,6 +23,7 @@ public class Movement : MonoBehaviour
         //left inputs
         if (Input.GetKey(Left))
         {
+            State = 1;
             if (Input.GetKey(Up))
             {
                 rb2d.AddForce(Vector2.left * buildUp);
@@ -38,6 +40,7 @@ public class Movement : MonoBehaviour
         //right inputs
         if (Input.GetKey(Right))
         {
+            State = 2;
             if (Input.GetKey(Up))
             {
                 rb2d.AddForce(Vector2.right * buildUp);
@@ -54,12 +57,14 @@ public class Movement : MonoBehaviour
         //up input
         if (Input.GetKey(Up))
         {
+            
             rb2d.AddForce(Vector2.up * buildUp);
         }
 
         //down input
         if (Input.GetKey(Down))
         {
+            
             rb2d.AddForce(Vector2.down * buildUp);
         }
 
