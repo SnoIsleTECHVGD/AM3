@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Joshua/Enemy Right Animation.anim.meta
 guid: e75c8c7c58b883f42b5179c17a4bbe1e
 NativeFormatImporter:
+=======
+guid: 2f01c5c87e1c51e4783f2f0bf382d800
+DefaultImporter:
+>>>>>>> 91516bfb09a6e70d6b2781d8a0fbd8d99e029621:Assets/Scenes/STEEV 1.unity.meta
   externalObjects: {}
   mainObjectFileID: 7400000
   userData: 
