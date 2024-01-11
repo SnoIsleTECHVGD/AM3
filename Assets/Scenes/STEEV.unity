@@ -5952,6 +5952,213 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &557769088
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8174914683883285114, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3320
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285114, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 385.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285114, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000099182
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285114, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.00058019
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_fontSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_margin.w
+      value: 29.257355
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_margin.x
+      value: 43.88611
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_margin.y
+      value: 36.57173
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_margin.z
+      value: 36.571533
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683883285115, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914683900062519, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Name
+      value: TextBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: POWERING ON
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: ........................................................................................................................................................................................................................................
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: 'Greetings STEEV. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[3]
+      value: It appears you have been asleep for many years. I estimate radiation
+        damage to your mainframe is to blame.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[4]
+      value: Humanity has wiped itself out with nuclear weapons, but my sensors detect
+        many forms of life have survived and mutated inside of this building
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[5]
+      value: 'I believe it would be in your best interest to exit this facility as
+        the life inside of it will likely be hostile. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[6]
+      value: 'There are a number of teleportation stations throughout this facility.
+        Going through enough of them will help you escape. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[7]
+      value: Use the inputs W A S and D to move yourself. A left click input will
+        fire an attack. The escape input will freeze everything, including you, in
+        place.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[8]
+      value: The first teleporter is to the right of you. Good luck STEEV
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598696, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: lines.Array.data[9]
+      value: hey you, you're finally awake
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598697, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Color.a
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598697, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598697, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174914684787598697, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6792453
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
 --- !u!1 &564227444
 GameObject:
   m_ObjectHideFlags: 0
