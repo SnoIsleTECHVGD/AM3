@@ -34,6 +34,7 @@ public class Textbox : MonoBehaviour
     {
         index = 0;
         StartCoroutine(TypeLine());
+        Time.timeScale = 0f;
     }
     IEnumerator TypeLine()
     {
@@ -54,6 +55,7 @@ public class Textbox : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            Time.timeScale = 1f;
         }
     }
 }
