@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     static int State;
 
     private Rigidbody2D rb2d;
+    private Animator anim;
 
     void Start()
     {
@@ -19,40 +20,49 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //anim.SetInteger("State", 0);
         //left inputs
+
         if (Input.GetKey(Left))
         {
-            State = 1;
+            
+          // anim.SetInteger("State", 1);
+            rb2d.AddForce(Vector2.left * buildUp);
+            GetComponent<Animator>().SetInteger("State", 1);
+        }
             if (Input.GetKey(Up))
             {
-                rb2d.AddForce(Vector2.left * buildUp);
+               
                 rb2d.AddForce(Vector2.up * buildUp);
             }
             if (Input.GetKey(Down))
             {
-                rb2d.AddForce(Vector2.left * buildUp);
+                
                 rb2d.AddForce(Vector2.down * buildUp);
             }
-            rb2d.AddForce(Vector2.left * buildUp);
-        }
+
+
 
         //right inputs
         if (Input.GetKey(Right))
         {
-            State = 2;
+
+            //anim.SetInteger("State", 2);
+            rb2d.AddForce(Vector2.right * buildUp);
+            GetComponent<Animator>().SetInteger("State", 2);
+        }
             if (Input.GetKey(Up))
             {
-                rb2d.AddForce(Vector2.right * buildUp);
+               
                 rb2d.AddForce(Vector2.up * buildUp);
             }
             if (Input.GetKey(Down))
             {
-                rb2d.AddForce(Vector2.right * buildUp);
+                
                 rb2d.AddForce(Vector2.down * buildUp);
             }
-            rb2d.AddForce(Vector2.right * buildUp);
-        }
+           
+        
 
         //up input
         if (Input.GetKey(Up))
