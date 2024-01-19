@@ -8,6 +8,7 @@ public class Textbox : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
+    public GameObject Player;
 
     private int index;
     void Start()
@@ -34,7 +35,8 @@ public class Textbox : MonoBehaviour
     {
         index = 0;
         StartCoroutine(TypeLine());
-        Time.timeScale = 0f;
+        //STOP MOVEMENT SCRIPT HERE
+        Player.GetComponent<Movement>().enabled = false;
     }
     IEnumerator TypeLine()
     {
@@ -55,7 +57,8 @@ public class Textbox : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            Time.timeScale = 1f;
+            //ALLOW MOVEMENT SCRIPT HERE
+            Player.GetComponent<Movement>().enabled = true;
         }
     }
 }
