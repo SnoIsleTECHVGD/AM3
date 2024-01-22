@@ -1,25 +1,7 @@
 fileFormatVersion: 2
-guid: d7baad71fc8afd04999a2e1128d4aad2
+guid: 86928dce80a32bc469511b2e6877923e
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -1241374309197530942
-    second: sprit_steev_right_0
-  - first:
-      213: 1736488649277665244
-    second: sprit_steev_right_1
-  - first:
-      213: 7122228316050695598
-    second: sprit_steev_right_2
-  - first:
-      213: 226484165560399156
-    second: sprit_steev_right_3
-  - first:
-      213: 2653844581984626835
-    second: sprit_steev_right_4
-  - first:
-      213: -7418339900353110005
-    second: sprit_steev_right_5
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -59,12 +41,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 5
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,91 +113,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: sprit_steev_right_0
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 62
-        width: 12
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c83cf294a0c5cee0800000000000000
-      internalID: -1241374309197530942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprit_steev_right_1
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 62
-        width: 12
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdf61b8e93f391810800000000000000
-      internalID: 1736488649277665244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprit_steev_right_2
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 62
-        width: 12
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea52e631bec37d260800000000000000
-      internalID: 7122228316050695598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprit_steev_right_3
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 62
-        width: 12
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4357a7b0622a42300800000000000000
-      internalID: 226484165560399156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -228,7 +126,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
