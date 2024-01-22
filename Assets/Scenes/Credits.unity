@@ -412,7 +412,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0.17543797, b: 0.735849, a: 0}
+  m_BackGroundColor: {r: 0.60875756, g: 0.64060324, b: 0.754717, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -516,21 +516,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Head Designer - Lily
+  m_text: 'Background Artist - Lily
 
-    Scrum Master - Alex
-
-    Head Level Designer
-    - Joshua
-
-    Head Scripter - Damon Bradbury
-
-    Head Music Producer - Hannah
+    Enemy and Object Artist - Alex
 
     Head
-    of UI- Kaleb
+    Level Designer - Joshua
 
-    therapy "entity" - tax fraud
+    Head Coder - Damon Bradbury
+
+    Character Artist
+    - Hannah
+
+    Head of UI- Kaleb
+
 
 '
   m_isRightToLeft: 0
@@ -541,8 +540,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
