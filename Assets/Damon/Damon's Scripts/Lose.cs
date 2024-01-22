@@ -8,6 +8,11 @@ public class Lose : MonoBehaviour
     public GameObject deathMenu;
     public bool isAlive;
 
+    void Start()
+    {
+        Time.timeScale = 1f;
+        isAlive = true;
+    }
     
     void Update()
     {
