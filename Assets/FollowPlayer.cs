@@ -24,5 +24,17 @@ public class FollowPlayer : MonoBehaviour
         {
             rb2D.velocity = (target.position - transform.position).normalized * speed;
         }
+        if (rb2D.velocity.x < 0)
+        {
+            GetComponent<Animator>().SetInteger("State", 1);
+        }
+        else if (rb2D.velocity.x > 0)
+        {
+            GetComponent<Animator>().SetInteger("State", 2);
+        }
+        else
+        {
+            GetComponent<Animator>().SetInteger("State", 0);
+        }
     }
 }

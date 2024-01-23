@@ -77,13 +77,22 @@ public class Movement : MonoBehaviour
         {
             
             rb2d.AddForce(Vector2.up * buildUp);
+            GetComponent<Animator>().SetInteger("State", 4);
         }
-
+        else if (Input.GetKeyUp(Up))
+        {
+            GetComponent<Animator>().SetInteger("State", 0);
+        }
         //down input
         if (Input.GetKey(Down))
         {
             
             rb2d.AddForce(Vector2.down * buildUp);
+            GetComponent<Animator>().SetInteger("State", 3);
+        }
+        else if ( Input.GetKeyUp(Down))
+        {
+            GetComponent<Animator>().SetInteger("State", 0);
         }
 
         rb2d.velocity = new Vector2(Mathf.Clamp(rb2d.velocity.x, -maxSpeed, maxSpeed), Mathf.Clamp(rb2d.velocity.y, -maxSpeed, maxSpeed));
