@@ -2111,7 +2111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &100876333
 Animator:
   serializedVersion: 3
@@ -2194,7 +2194,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &119113027
 GameObject:
@@ -2508,7 +2508,7 @@ Transform:
   - {fileID: 1383327105}
   - {fileID: 1102191576}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &217085948
 GameObject:
@@ -2656,6 +2656,7 @@ GameObject:
   - component: {fileID: 228834464}
   - component: {fileID: 228834465}
   - component: {fileID: 228834466}
+  - component: {fileID: 228834467}
   m_Layer: 0
   m_Name: Isometric Diamond (19)
   m_TagString: Untagged
@@ -2816,6 +2817,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1508463, y: 0.08121307}
   m_EdgeRadius: 0
+--- !u!95 &228834467
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228834459}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &235015393
 GameObject:
   m_ObjectHideFlags: 0
@@ -3359,7 +3379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &254804246
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3423,7 +3443,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259147921
 GameObject:
@@ -3702,6 +3722,7 @@ GameObject:
   - component: {fileID: 267692207}
   - component: {fileID: 267692208}
   - component: {fileID: 267692204}
+  - component: {fileID: 267692209}
   m_Layer: 0
   m_Name: Isometric Diamond (14)
   m_TagString: Untagged
@@ -3862,6 +3883,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &267692209
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267692201}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &286827157
 GameObject:
   m_ObjectHideFlags: 0
@@ -4534,6 +4574,7 @@ GameObject:
   - component: {fileID: 339891221}
   - component: {fileID: 339891222}
   - component: {fileID: 339891218}
+  - component: {fileID: 339891223}
   m_Layer: 0
   m_Name: Isometric Diamond (7)
   m_TagString: Untagged
@@ -4694,6 +4735,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &339891223
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339891215}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &348533120
 GameObject:
   m_ObjectHideFlags: 0
@@ -4840,6 +4900,7 @@ GameObject:
   - component: {fileID: 351586863}
   - component: {fileID: 351586868}
   - component: {fileID: 351586869}
+  - component: {fileID: 351586870}
   m_Layer: 0
   m_Name: Enemy (2)
   m_TagString: Untagged
@@ -5000,6 +5061,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &351586870
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351586862}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &407441790
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,6 +5357,7 @@ GameObject:
   - component: {fileID: 421431962}
   - component: {fileID: 421431963}
   - component: {fileID: 421431964}
+  - component: {fileID: 421431965}
   m_Layer: 0
   m_Name: Isometric Diamond (17)
   m_TagString: Untagged
@@ -5437,6 +5518,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1508463, y: 0.08121307}
   m_EdgeRadius: 0
+--- !u!95 &421431965
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421431957}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &422246777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6903,6 +7003,7 @@ GameObject:
   - component: {fileID: 517289930}
   - component: {fileID: 517289931}
   - component: {fileID: 517289927}
+  - component: {fileID: 517289932}
   m_Layer: 0
   m_Name: Isometric Diamond (4)
   m_TagString: Untagged
@@ -7063,6 +7164,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &517289932
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517289924}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &544945926
 GameObject:
   m_ObjectHideFlags: 0
@@ -7255,7 +7375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8174914683900062515, guid: 78104d7797d470f4b98b4203b28754a2, type: 3}
       propertyPath: m_AnchorMax.x
@@ -7451,6 +7571,7 @@ GameObject:
   - component: {fileID: 564227450}
   - component: {fileID: 564227451}
   - component: {fileID: 564227447}
+  - component: {fileID: 564227452}
   m_Layer: 0
   m_Name: Isometric Diamond (8)
   m_TagString: Untagged
@@ -7611,6 +7732,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &564227452
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564227444}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &565450932
 GameObject:
   m_ObjectHideFlags: 0
@@ -7880,6 +8020,7 @@ GameObject:
   - component: {fileID: 574302773}
   - component: {fileID: 574302774}
   - component: {fileID: 574302770}
+  - component: {fileID: 574302775}
   m_Layer: 0
   m_Name: Isometric Diamond (15)
   m_TagString: Untagged
@@ -8040,6 +8181,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &574302775
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574302767}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &619335488
 GameObject:
   m_ObjectHideFlags: 0
@@ -8186,6 +8346,7 @@ GameObject:
   - component: {fileID: 645658918}
   - component: {fileID: 645658919}
   - component: {fileID: 645658920}
+  - component: {fileID: 645658921}
   m_Layer: 0
   m_Name: Isometric Diamond (18)
   m_TagString: Untagged
@@ -8346,6 +8507,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1508463, y: 0.08121307}
   m_EdgeRadius: 0
+--- !u!95 &645658921
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645658913}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &688210168
 GameObject:
   m_ObjectHideFlags: 0
@@ -9805,6 +9985,7 @@ GameObject:
   - component: {fileID: 794992085}
   - component: {fileID: 794992086}
   - component: {fileID: 794992082}
+  - component: {fileID: 794992087}
   m_Layer: 0
   m_Name: Isometric Diamond (6)
   m_TagString: Untagged
@@ -9965,6 +10146,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &794992087
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794992079}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &797728666
 GameObject:
   m_ObjectHideFlags: 0
@@ -10113,7 +10313,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &816126477
 Animator:
   serializedVersion: 3
@@ -10196,7 +10396,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &820115918
 GameObject:
@@ -10993,6 +11193,7 @@ GameObject:
   - component: {fileID: 875012784}
   - component: {fileID: 875012785}
   - component: {fileID: 875012781}
+  - component: {fileID: 875012786}
   m_Layer: 0
   m_Name: Isometric Diamond (5)
   m_TagString: Untagged
@@ -11153,6 +11354,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &875012786
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875012778}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &893666508
 GameObject:
   m_ObjectHideFlags: 0
@@ -11695,6 +11915,7 @@ GameObject:
   - component: {fileID: 921379831}
   - component: {fileID: 921379832}
   - component: {fileID: 921379828}
+  - component: {fileID: 921379833}
   m_Layer: 0
   m_Name: Isometric Diamond (11)
   m_TagString: Untagged
@@ -11855,6 +12076,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &921379833
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921379825}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &938594760
 GameObject:
   m_ObjectHideFlags: 0
@@ -12395,7 +12635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &952270057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12459,7 +12699,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &962812772
 GameObject:
@@ -12630,6 +12870,7 @@ RectTransform:
   - {fileID: 1837715180}
   - {fileID: 844420076}
   - {fileID: 1887584619}
+  - {fileID: 2064959027}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13250,6 +13491,7 @@ GameObject:
   - component: {fileID: 1045595550}
   - component: {fileID: 1045595551}
   - component: {fileID: 1045595547}
+  - component: {fileID: 1045595552}
   m_Layer: 0
   m_Name: Isometric Diamond (3)
   m_TagString: Untagged
@@ -13410,6 +13652,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1045595552
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045595544}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1081019658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13897,6 +14158,7 @@ GameObject:
   - component: {fileID: 1102191579}
   - component: {fileID: 1102191580}
   - component: {fileID: 1102191581}
+  - component: {fileID: 1102191582}
   m_Layer: 0
   m_Name: Isometric Diamond (21)
   m_TagString: Untagged
@@ -14057,6 +14319,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1508463, y: 0.08121307}
   m_EdgeRadius: 0
+--- !u!95 &1102191582
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102191574}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1109439582
 GameObject:
   m_ObjectHideFlags: 0
@@ -39834,6 +40115,7 @@ GameObject:
   - component: {fileID: 1146446873}
   - component: {fileID: 1146446874}
   - component: {fileID: 1146446870}
+  - component: {fileID: 1146446875}
   m_Layer: 0
   m_Name: Isometric Diamond (10)
   m_TagString: Untagged
@@ -39994,6 +40276,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1146446875
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146446867}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1148199942
 GameObject:
   m_ObjectHideFlags: 0
@@ -42016,7 +42317,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1343669432
 Animator:
   serializedVersion: 3
@@ -42099,7 +42400,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1345225824
 GameObject:
@@ -42642,7 +42943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1355253374
 Animator:
   serializedVersion: 3
@@ -42725,7 +43026,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1362139047
 GameObject:
@@ -43127,6 +43428,7 @@ GameObject:
   - component: {fileID: 1383327108}
   - component: {fileID: 1383327109}
   - component: {fileID: 1383327110}
+  - component: {fileID: 1383327111}
   m_Layer: 0
   m_Name: Isometric Diamond (20)
   m_TagString: Untagged
@@ -43287,6 +43589,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1508463, y: 0.08121307}
   m_EdgeRadius: 0
+--- !u!95 &1383327111
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383327103}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1389238342
 GameObject:
   m_ObjectHideFlags: 0
@@ -46920,6 +47241,7 @@ GameObject:
   - component: {fileID: 1483970459}
   - component: {fileID: 1483970460}
   - component: {fileID: 1483970456}
+  - component: {fileID: 1483970461}
   m_Layer: 0
   m_Name: Isometric Diamond (9)
   m_TagString: Untagged
@@ -47080,6 +47402,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1483970461
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483970453}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1488334272
 GameObject:
   m_ObjectHideFlags: 0
@@ -48819,6 +49160,7 @@ GameObject:
   - component: {fileID: 1681303596}
   - component: {fileID: 1681303600}
   - component: {fileID: 1681303602}
+  - component: {fileID: 1681303603}
   m_Layer: 0
   m_Name: Enemy (1)
   m_TagString: Untagged
@@ -48979,6 +49321,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1681303603
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681303595}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1694606609
 GameObject:
   m_ObjectHideFlags: 0
@@ -50839,6 +51200,7 @@ GameObject:
   - component: {fileID: 1854338432}
   - component: {fileID: 1854338433}
   - component: {fileID: 1854338429}
+  - component: {fileID: 1854338434}
   m_Layer: 0
   m_Name: Isometric Diamond (12)
   m_TagString: Untagged
@@ -50999,6 +51361,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1854338434
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854338426}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1862974873
 GameObject:
   m_ObjectHideFlags: 0
@@ -51802,6 +52183,7 @@ GameObject:
   - component: {fileID: 1921688916}
   - component: {fileID: 1921688917}
   - component: {fileID: 1921688913}
+  - component: {fileID: 1921688918}
   m_Layer: 0
   m_Name: Isometric Diamond (13)
   m_TagString: Untagged
@@ -51962,6 +52344,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c29f0066309e4d8ea3d5b9591293d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1921688918
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921688910}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1926383025
 GameObject:
   m_ObjectHideFlags: 0
@@ -51979,7 +52380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1926383026
 Animator:
   serializedVersion: 3
@@ -52062,7 +52463,7 @@ Transform:
   m_LocalScale: {x: 12.6094, y: 6.4863, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1931485191
 GameObject:
@@ -53430,12 +53831,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064959024}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -405, y: -247, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 1005288706}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2074156190
 GameObject:
@@ -79673,6 +80074,7 @@ GameObject:
   - component: {fileID: 2125261946}
   - component: {fileID: 2125261947}
   - component: {fileID: 2125261948}
+  - component: {fileID: 2125261949}
   m_Layer: 0
   m_Name: Isometric Diamond (16)
   m_TagString: Untagged
@@ -79833,6 +80235,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1508463, y: 0.08121307}
   m_EdgeRadius: 0
+--- !u!95 &2125261949
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125261941}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd6fe3e0e74122c4d84d24989885892e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2130709220
 GameObject:
   m_ObjectHideFlags: 0
