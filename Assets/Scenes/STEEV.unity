@@ -13477,6 +13477,10 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 9073334820562948198, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
+      propertyPath: m_LinearDrag
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 9073334820562948199, guid: 91fe20449af9841468a6e90bc6f4a0f3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 12

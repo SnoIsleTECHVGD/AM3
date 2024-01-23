@@ -30,6 +30,10 @@ public class Movement : MonoBehaviour
             rb2d.AddForce(Vector2.left * buildUp);
             GetComponent<Animator>().SetInteger("State", 1);
         }
+        else if ( Input.GetKeyUp(Left))
+        {
+            GetComponent<Animator>().SetInteger("State", 0);
+        }
             if (Input.GetKey(Up))
             {
                
@@ -51,7 +55,11 @@ public class Movement : MonoBehaviour
             rb2d.AddForce(Vector2.right * buildUp);
             GetComponent<Animator>().SetInteger("State", 2);
         }
-            if (Input.GetKey(Up))
+        else if ( Input.GetKeyUp(Right))
+        {
+            GetComponent<Animator>().SetInteger("State", 0);
+        }
+        if (Input.GetKey(Up))
             {
                
                 rb2d.AddForce(Vector2.up * buildUp);
